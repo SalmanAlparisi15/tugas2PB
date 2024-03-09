@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/showroom"
+    android:orientation="vertical"
+    tools:context=".JdmLayout">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSkyline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+
+        <ImageView
+            android:id="@+id/imgSkyline"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/skyline" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvskylineJudul"
+                android:text="NISSAN SKYLINE  R34"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvskylineDeskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginRight="8dp"
+                android:paddingTop="6dp"
+                android:maxLines="4"
+                android:text="Nissan Skyline R34 adalah salah satu ikon otomotif dari Jepang yang diproduksi antara tahun 1998 hingga 2002. Seiring berjalannya waktu, Skyline mengalami beberapa generasi dan evolusi yang signifikan. Setiap generasi menampilkan peningkatan dalam desain, teknologi, dan kinerja."
+                android:textSize="13dp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/tvskylineSpeed"
+                android:text="TOP SPEED = 201 - 205KM"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardRx7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:id="@+id/imgRx7"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/rx7" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvrx7Judul"
+                    android:text="MAZDA RX-7"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvrx7Deskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="8dp"
+                    android:paddingTop="6dp"
+                    android:maxLines="4"
+                    android:text="Mazda RX-7, diperkenalkan pertama kali pada tahun 1978, mewakili pencapaian tertinggi dalam industri otomotif dengan desain yang khas dan performa yang luar biasa"
+                    android:textSize="13dp"
+                    android:justificationMode="inter_word"/>
+
+                <TextView
+                    android:id="@+id/tvrx7Speed"
+                    android:text="TOP SPEED = 222 - 250KM"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSupra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:id="@+id/imgSupra"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/supramk4" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvsupraJudul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center_horizontal"
+                    android:text="TOYOTA SUPRA MK-4"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvsupraDeskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:maxLines="4"
+                    android:paddingTop="6dp"
+                    android:text="Toyota Supra MK4, yang diluncurkan pada tahun 1993, mewakili puncak keunggulan dalam dunia otomotif, dengan desain yang elegan dan performa yang memukau. Dikenal sebagai legendary di kalangan pecinta mobil sport"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:justificationMode="inter_word"/>
+
+                <TextView
+                    android:id="@+id/tvsupraSpeed"
+                    android:text="TOP SPEED = 241 - 250KM"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSubaru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:id="@+id/imgSubaru"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/subaru" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvsubaruJudul"
+                    android:text="SUBARU IMPREZA"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvsubaruDeskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:maxLines="4"
+                    android:paddingTop="6dp"
+                    android:text="Subaru Impreza, yang mulai diproduksi pada tahun 1992, telah menjadi salah satu mobil JDM yang paling dihormati dan dicari oleh para penggemar otomotif di seluruh dunia. Dikenal dengan gaya bodi yang aerodinamis dan performa yang tangguh"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:justificationMode="inter_word"/>
+
+                <TextView
+                    android:id="@+id/tvsubaruSpeed"
+                    android:text="TOP SPEED = 175 - 200KM"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardNsx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:id="@+id/imgNsx"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/nsx" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvnsxJudul"
+                    android:text="HONDA NSX"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvnsxDeskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="8dp"
+                    android:paddingTop="6dp"
+                    android:maxLines="3"
+                    android:text="Honda NSX, yang lahir pada tahun 1990, adalah manifestasi kecemerlangan dalam dunia otomotif. Didesain dengan harmoni antara estetika, performa, dan teknologi, Dengan mesin mid-mounted yang kuat dan bahan-bahan ringan yang dipilih dengan cermat, NSX menawarkan pengalaman mengemudi yang dinamis dan responsif "
+                    android:textSize="13dp"
+                    android:justificationMode="inter_word"/>
+
+                <TextView
+                    android:id="@+id/tvnsxSpeed"
+                    android:text="TOP SPEED = 270 - 274KM"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

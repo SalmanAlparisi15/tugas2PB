@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/showroom"
+    android:orientation="vertical"
+    tools:context=".JdmLayout">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardMustang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:id="@+id/imgMustang"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/mustang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvmustangJudul"
+                    android:text="FORD MUSTANG"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvmustangDeskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="8dp"
+                    android:paddingTop="6dp"
+                    android:maxLines="4"
+                    android:text="Pertama kali diperkenalkan pada tahun 1964, Ford Mustang segera menjadi simbol kebebasan dan gaya Amerika dengan desain yang revolusioner dan kinerja yang mengesankan"
+                    android:textSize="13dp"
+                    android:justificationMode="inter_word"/>
+
+                <TextView
+                    android:id="@+id/tvmustangSpeed"
+                    android:text="TOP SPEED = 195 - 228KM"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardTesla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:id="@+id/imgTesla"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/tesla" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvteslaJudul"
+                    android:text="TESLA MODEL 3"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvteslaDeskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="8dp"
+                    android:paddingTop="6dp"
+                    android:maxLines="4"
+                    android:text="Tesla Model 3 mulai diproduksi pada tahun 2017, menandai langkah besar dalam revolusi mobil listrik dengan teknologi canggih, performa yang mengesankan, dan harga yang lebih terjangkau"
+                    android:textSize="13dp"
+                    android:justificationMode="inter_word"/>
+
+                <TextView
+                    android:id="@+id/tvteslaSpeed"
+                    android:text="TOP SPEED = 210 - 233KM"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardChevrolet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:id="@+id/imgChevrolet"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/chevrolet" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvchevroletJudul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center_horizontal"
+                    android:text="CHEVROLET CORVETTE"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvchevroletDeskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:maxLines="4"
+                    android:paddingTop="6dp"
+                    android:text="Corvette pertama kali diperkenalkan pada tahun 1953, menjadikannya salah satu mobil sport Amerika tertua. Dengan evolusi yang berkelanjutan, Corvette terus menjadi simbol kecepatan dan gaya dengan desain yang ikonik dan performa yang memukau"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:justificationMode="inter_word"/>
+
+                <TextView
+                    android:id="@+id/tvchevroletSpeed"
+                    android:text="TOP SPEED = 198 - 212KM"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardCadilac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:id="@+id/imgCadilac"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/cadilac" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvcadilacJudul"
+                    android:text="CADILLAC CT-5"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvcadilacDeskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:maxLines="4"
+                    android:paddingTop="4dp"
+                    android:text="Cadillac CT5 mulai diproduksi pada tahun 2019 sebagai penerus dari model-model sebelumnya dalam keluarga sedan mewah Cadillac. Dengan gaya yang modern dan teknologi yang canggih, CT5 menawarkan kombinasi yang unik antara kenyamanan, kinerja, dan kemewahan"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:justificationMode="inter_word"/>
+
+                <TextView
+                    android:id="@+id/tvcadilacSpeed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TOP SPEED = 242 - 250KM"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardDodge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:id="@+id/imgDodge"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/dodge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvdodgeJudul"
+                    android:text="DODGE CHALLENGER"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvdodgeDeskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="8dp"
+                    android:paddingTop="6dp"
+                    android:maxLines="2"
+                    android:text="Diluncurkan pada tahun 1970, Dodge Challenger menandai era emas mobil muscle Amerika dengan desain yang kuat dan performa yang mengagumkan, menciptakan warisan yang abadi dalam budaya otomotif "
+                    android:textSize="13dp"
+                    android:justificationMode="inter_word"/>
+
+                <TextView
+                    android:id="@+id/tvdodgeSpeed"
+                    android:text="TOP SPEED = 220 - 250KM"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

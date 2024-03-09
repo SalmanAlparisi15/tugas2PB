@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/showroom"
+    android:orientation="vertical"
+    tools:context=".JdmLayout">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardAudi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:id="@+id/imgAudi"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/audi" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvaudiJudul"
+                    android:text="AUDI RS-3"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvaudiDeskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:maxLines="4"
+                    android:paddingTop="6dp"
+                    android:text="Audi RS3 mulai diproduksi pada tahun 2011. Dengan mesin turbocharged dan sistem Quattro all-wheel-drive, RS3 menawarkan kinerja yang mengesankan dalam paket hatchback yang praktis. Dikenal karena akselerasinya yang cepat dan penanganannya yang presisi, RS3 merupakan pilihan yang populer di kalangan penggemar mobil sport"
+                    android:textColor="@color/black"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/tvaudiSpeed"
+                    android:text="TOP SPEED = 240 - 250KM"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardBmw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:id="@+id/imgBmw"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/bmw" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvbmwJudul"
+                    android:text="BMW M3"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvbmwDeskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="8dp"
+                    android:paddingTop="6dp"
+                    android:maxLines="4"
+                    android:text="BMW M3 pertama kali diperkenalkan pada tahun 1986. Sejak itu, ia telah menjadi simbol performa tinggi dan keunggulan teknis dalam segmen sedan sport. Dikenal karena mesinnya yang bertenaga dan penanganannya yang presisi, M3 terus menjadi pilihan utama bagi para penggemar mobil sport"
+                    android:textSize="13dp"
+                    android:justificationMode="inter_word"/>
+
+                <TextView
+                    android:id="@+id/tvbmwSpeed"
+                    android:text="TOP SPEED = 250 - 255KM"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardMercedes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:id="@+id/imgMercedes"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/mercedes" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvmercedesJudul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center_horizontal"
+                    android:text="MERCEDES-AMG A45"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvmercedesDeskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:maxLines="4"
+                    android:paddingTop="6dp"
+                    android:text="Mercedes-AMG A45 pertama kali diluncurkan pada tahun 2013. Sebagai hot hatchback yang mengesankan, A45 menawarkan kombinasi yang unik antara performa tinggi dan kenyamanan sehari-hari. Dikenal karena mesinnya yang bertenaga dan desainnya yang modern, A45 tetap menjadi salah satu yang terbaik di kelasnya"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:justificationMode="inter_word"/>
+
+                <TextView
+                    android:id="@+id/tvmercedesSpeed"
+                    android:text="TOP SPEED = 250 - 270KM"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardRenault"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:id="@+id/imgRenault"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/renault" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvrenaultJudul"
+                    android:text="RENAULT MEGANE RS"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvrenaultDeskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:maxLines="4"
+                    android:paddingTop="6dp"
+                    android:text="Renault Megane RS pertama kali diluncurkan pada tahun 2004. Sebagai hot hatch yang sporty, Megane RS menawarkan kombinasi yang mengagumkan antara performa tinggi dan kenyamanan sehari-hari. Dikenal karena penanganannya yang lincah dan desainnya yang berani, Megane RS terus menjadi pilihan yang populer di pasar"
+                    android:textColor="@color/black"
+                    android:textSize="13dp"
+                    android:justificationMode="inter_word"/>
+
+                <TextView
+                    android:id="@+id/tvrenaultSpeed"
+                    android:text="TOP SPEED = 250 - 260KM"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardPeugeot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:id="@+id/imgPeugeot"
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/peugeot" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvpeugeotJudul"
+                    android:text="PEUGEOT 308 GTI"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvpeugeotDeskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="8dp"
+                    android:paddingTop="6dp"
+                    android:maxLines="3"
+                    android:text="Peugeot 308 GTI mulai diproduksi pada tahun 2015. Sebagai hot hatch yang menarik, 308 GTI menawarkan kinerja yang memukau dalam paket yang praktis. Dikenal karena mesinnya yang bertenaga dan penanganannya yang lincah, 308 GTI menawarkan pengalaman mengemudi yang menyenangkan dan dinamis "
+                    android:textSize="13dp"
+                    android:justificationMode="inter_word"/>
+
+                <TextView
+                    android:id="@+id/tvpeugeotSpeed"
+                    android:text="TOP SPEED = 245- 255KM"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
