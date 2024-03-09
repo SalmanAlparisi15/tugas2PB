@@ -71,7 +71,7 @@ public class UsdmLayout extends AppCompatActivity {
 
                 DetailProduk detail = new DetailProduk();
                 Intent intent;
-                if (v.getId() == R.id.cardSubaru) {
+                if (v.getId() == R.id.cardChevrolet) {
                     detail.setNama((String) tvchevroletJudul.getText());
                     detail.setDeskripsi((String) tvchevroletDeskprisi.getText());
                     detail.setTopSpeed((String) tvchevroletSpeed.getText());
